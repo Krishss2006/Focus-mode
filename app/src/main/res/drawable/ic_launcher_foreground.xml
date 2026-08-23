@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Geofence Zone outer glow / circle -->
+        <path
+            android:fillColor="#1538BDF8"
+            android:pathData="M54,54 m-28,0 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M54,54 m-28,0 a28,28 0 1,0 56,0 a28,28 0 1,0 -56,0"
+            android:strokeColor="#38BDF8"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:strokeWidth="2" />
+        
+        <!-- Location pin base -->
+        <path
+            android:pathData="M54,26 C43.5,26 35,34.5 35,45 C35,58 54,76 54,76 C54,76 73,58 73,45 C73,34.5 64.5,26 54,26 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="35"
+                    android:startY="26"
+                    android:endX="73"
+                    android:endY="76"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#6366F1" />
+                    <item android:offset="1.0" android:color="#4338CA" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- DND Crescent Moon / Do Not Disturb badge inside pin -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M57.5,37 C54.5,37 52,39.5 52,42.5 C52,45.5 54.5,48 57.5,48 C58.2,48 58.9,47.8 59.5,47.5 C57.8,49.8 54.8,51 52,50 C49,49 47.5,46 48,43 C48.5,40 51,38 54,38 C55.2,38 56.4,38.5 57.5,39.2 C57.2,38.5 57.5,37.5 57.5,37 Z" />
+        
+        <!-- Small Star / Silent Sparkle -->
+        <path
+            android:fillColor="#38BDF8"
+            android:pathData="M60.5,36 L61.5,38 L63.5,39 L61.5,40 L60.5,42 L59.5,40 L57.5,39 L59.5,38 Z" />
+    </group>
+</vector>

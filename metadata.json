@@ -1,0 +1,6 @@
+{
+  "name": "Auto DND",
+  "description": "Automatically enables Do Not Disturb on entering college geofence and disables it on exit",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
